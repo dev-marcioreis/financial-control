@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+/*==========Base==========*/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  color: var(--dark-color);
+  background: var(--bg-color);
+  height: 300rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar {
+  width: .5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--red-color);
+}
+.section {
+  padding: 3rem 0;
+}
+.container {
+  padding: 0 2rem 0 4rem;
+  margin: 0 auto;
+}
+.flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1, h2, h3, h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+p, a, span, small {
+  font-size: 1rem;
+  font-weight: 300;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+  html {
+      scroll-padding-top: 4.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  .section {
+      padding: 1rem 0;
   }
+  .container {
+      padding: 0 .2rem;
+      margin: 0 auto;
+  }
+  h1, h2, h3, h4 {
+      font-size: 1.1rem;
+  }
+  p, a, span, small {
+      font-size: .9rem;
+  }
+  
 }

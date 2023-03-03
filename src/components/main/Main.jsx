@@ -1,11 +1,14 @@
+import Cards from '../cards/Cards'
 import './main.css'
 
 const Main = () => {
   return (
     <>
         <section className="section main">
-            <div className="container">
-                <h1>Main</h1>
+            <div className="container flex">
+                <Cards />
+                <Cards />
+                <Cards />
             </div>
         </section>
     </>

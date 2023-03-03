@@ -1,14 +1,11 @@
 .header {
-    position: relative;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    justify-content: center;
-    height: 7rem;
+    height: 4rem;
     background-color: var(--red-color);
     box-shadow: var(--shadow2);
 }
 h2 {
     color: var(--white-color);
     text-transform: capitalize;
-    margin-block-start: 1rem;
 }

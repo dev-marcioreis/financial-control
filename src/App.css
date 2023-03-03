@@ -6,7 +6,6 @@ html {
 body {
   color: var(--dark-color);
   background: var(--bg-color);
-  height: 300rem;
 }
 ::-webkit-scrollbar {
   width: .5rem;

@@ -1,0 +1,40 @@
+.cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: var(--white-color);
+    border-radius: .5rem;
+    padding: .5rem;
+    width: 30%;
+    box-shadow: var(--shadow);
+}
+.card-header {
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+h3 {
+    color: var(--red-color);
+    text-transform: capitalize;
+}
+small {
+    color: var(--red-color);
+}
+.total {
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+span {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .cards {
+        width: 100%;
+    }
+    
+}

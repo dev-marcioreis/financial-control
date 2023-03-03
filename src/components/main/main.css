@@ -1,11 +1,24 @@
 .main {
     max-width: 1120px;
+    width: 90%;
     height: auto;
-    margin: 1rem auto;
-    box-shadow: var(--shadow);
+    margin: 5rem auto;
 }
 .container {
     align-items: center;
     justify-content: space-around;
     gap: 1.5rem;
+}
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .main {
+        width: 95%;
+        margin: 5rem auto;
+    }
+    .container {
+        flex-direction: column;
+        gap: .5rem;
+    }
+    
 }

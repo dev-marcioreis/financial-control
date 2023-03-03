@@ -36,5 +36,11 @@ span {
     .cards {
         width: 100%;
     }
+    .card-header {
+        justify-content: space-between;
+    }
+    .total {
+        justify-content: space-between;
+    }
     
 }

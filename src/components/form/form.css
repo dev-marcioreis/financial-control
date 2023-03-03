@@ -1,0 +1,55 @@
+.form {
+    max-width: 1120px;
+    width: 90%;
+    height: auto;
+    margin: 1rem auto;
+    background: var(--white-color);
+    box-shadow: var(--shadow2);
+    border-radius: 0 0 1rem 1rem;
+    padding: .5rem .2rem;
+}
+.content {
+    align-items: center;
+    justify-content: space-around;
+}
+.desciption, .value, .options {
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+}
+.desciption span, .value span, .options span {
+    font-weight: 400;
+    padding: .2rem 0;
+}
+.desciption input, .value input, .options input {
+    border-radius: .5rem;
+    background: var(--white-color);
+    color: var(--dark-color);
+    box-shadow: var(--shadow);
+    font-weight: 400;
+    padding: .1rem .5rem;
+    width: 60%;
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .form {
+        width: 95%;
+        background: none;
+        box-shadow: none;
+    }
+    .content {
+        display: grid;
+        gap: 1rem;
+        padding: .5rem 0;
+        grid-template-columns: 1fr;
+    }
+    .desciption, .value, .options {
+        width: 100%;
+        border-radius: .5rem;
+    }
+    .desciption input, .value input, .options input {
+        width: 80%;
+    }
+}

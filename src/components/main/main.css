@@ -1,8 +1,11 @@
 .main {
     max-width: 1120px;
     width: 90%;
-    height: auto;
-    margin: 5rem auto;
+    margin: 5rem auto 1rem;
+    background: var(--white-color);
+    box-shadow: var(--shadow2);
+    border-radius: 1rem 1rem 0 0;
+    padding: 1rem .5rem;
 }
 .container {
     align-items: center;
@@ -10,11 +13,20 @@
     gap: 1.5rem;
 }
 
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .main {
+        width: 95%;
+    }
+    
+}
+
 /*==========Media Query==========*/
 @media (max-width: 768px) {
     .main {
-        width: 95%;
-        margin: 5rem auto;
+        background: none;
+        box-shadow: none;
     }
     .container {
         flex-direction: column;

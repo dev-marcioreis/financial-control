@@ -7,6 +7,7 @@
     max-width: 1100px;
     width: 95%;
     height: 7rem;
+    margin-block-start: -2rem;
 }
 .form .container .form__content {
     display: flex;
@@ -23,7 +24,14 @@
     justify-content: center;
     gap: .5rem;
 }
-.form .container .form__content .desciption span, .form .container .form__content .value span  {
+.form__content .value, .form .container .form__content .options {
+    accent-color: var(--dark-color);
+    gap: .2rem;
+}
+.form__content .value, .form .container .form__content .options label {
+    margin-right: .5rem;
+}
+.form .container .form__content .desciption label, .form .container .form__content .value label  {
     text-transform: capitalize;
 }
 .form .container .form__content .desciption input, .form .container .form__content .value input  {
@@ -39,6 +47,7 @@
     box-shadow: var(--shadow);
     text-transform: capitalize;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
 

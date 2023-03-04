@@ -1,6 +1,6 @@
 import './cards.css'
 
-const Cards = ( { title, icon, total, amount } ) => {
+const Cards = ( { title, icon, name, total } ) => {
   return (
     <>
         <article className="cards">
@@ -9,8 +9,8 @@ const Cards = ( { title, icon, total, amount } ) => {
               <small>{icon}</small>
             </div>
             <div className='cards__total'>
+              <span>{name}</span>
               <span>{total}</span>
-              <span>{amount}</span>
             </div>
         </article>
     </>

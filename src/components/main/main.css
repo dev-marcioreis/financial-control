@@ -7,7 +7,8 @@
     max-width: 1100px;
     width: 95%;
     height: 7rem;
-    margin-top: 4rem;
+    margin-block-start: 4rem;
+    margin-block-end: 2rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }

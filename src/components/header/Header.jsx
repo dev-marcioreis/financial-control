@@ -4,9 +4,12 @@ import { TbPigMoney as Money } from 'react-icons/tb'
 const Header = () => {
   return (
     <>
-        <section className="header flex">
+        <section className="header">
             <div className="container">
-              <h2><span><Money /></span> controle financeiro</h2>
+              <div className='logo'>
+                <span><Money /></span>
+                <h2>controle financeiro</h2>
+              </div>
             </div>
         </section>
     </>

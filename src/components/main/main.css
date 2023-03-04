@@ -1,36 +1,45 @@
-.main {
-    max-width: 1120px;
-    width: 90%;
-    margin: 5rem auto 1rem;
-    background: var(--white-color);
-    box-shadow: var(--shadow2);
-    border-radius: 1rem 1rem 0 0;
-    padding: 1rem .5rem;
-}
-.container {
+.main .container {
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 1.5rem;
+    background: var(--white-color);
+    box-shadow: var(--shadow);
+    max-width: 1100px;
+    width: 95%;
+    height: 7rem;
+    margin-top: 4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.main .container .credit {
+    background: var(--blue-color);
+    border-radius: .5rem;
+    box-shadow: var(--shadow);
+    color: var(--white-color);
+}
+.main .container .debit {
+    background: var(--red-color);
+    border-radius: .5rem;
+    box-shadow: var(--shadow);
+    color: var(--white-color);
+}
+.main .container .total {
+    background: var(--dark-color);
+    border-radius: .5rem;
+    box-shadow: var(--shadow);
+    color: var(--white-color);
 }
 
-
-/*==========Media Query==========*/
-@media (max-width: 1024px) {
-    .main {
-        width: 95%;
-    }
-    
-}
 
 /*==========Media Query==========*/
 @media (max-width: 768px) {
-    .main {
-        background: none;
-        box-shadow: none;
-    }
-    .container {
+    .main .container {
+        justify-content: center;
         flex-direction: column;
-        gap: .5rem;
+        gap: 1rem;
+        height: 20rem;
+        margin-top: 5rem;
+        padding: 1rem 0;
     }
-    
+
 }

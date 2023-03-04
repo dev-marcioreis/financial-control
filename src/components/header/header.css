@@ -1,15 +1,40 @@
-.header {
+.header .container {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
+    height: 4rem;
+    display: flex;
     align-items: center;
     justify-content: center;
-    height: 4rem;
-    background-color: var(--red-color);
-    box-shadow: var(--shadow2);
+    background-color: var(--white-color);
+    box-shadow: var(--shadow);
 }
-h2 {
-    color: var(--white-color);
+.header .container .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.header .container .logo span {
+    margin-block-start: .3rem;
+    color: var(--dark-color);
+    font-size: 1.4rem;
+}
+.header .container .logo h2 {
+    color: var(--dark-color);
+    font-size: 1.4rem;
     text-transform: capitalize;
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .header .container .logo span {
+        font-size: 1.2rem;
+    }
+    .header .container .logo h2 {
+        font-size: 1.2rem;
+    }
+
 }

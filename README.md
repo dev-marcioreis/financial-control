@@ -5,6 +5,8 @@ React 18<br>
 Styled components<br>
 React icons<br>
 Link de acesso: https://dev-marcioreis.github.io/financial-control/
+![image](https://user-images.githubusercontent.com/122680054/222915621-a017f906-2c03-45d5-9aaa-4e73d2e5f794.png)
+
 
 Getting Started with Create React App
 

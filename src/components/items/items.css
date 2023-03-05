@@ -11,6 +11,7 @@
 }
 .items .container .table {
     width: 100%;
+    padding: .5rem;
 }
 .items .container .table .table-head {
     text-align: left;

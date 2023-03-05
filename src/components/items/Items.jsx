@@ -9,9 +9,9 @@ const Items = ( { items, setItems } ) => {
               <table className='table'>
                   <thead className='table-head'>
                       <tr>
-                        <th>descrição</th>
-                        <th>valor</th>
-                        <th>tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                        <th>Tipo</th>
                         <th></th>
                       </tr>
                   </thead>

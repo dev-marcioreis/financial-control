@@ -18,10 +18,10 @@ const Items = ( { items, setItems } ) => {
                 <span>descrição</span>
                 <span>valor</span>
                 <span>tipo</span>
-                <span>deletar</span>
+                <span>deletar?</span>
               </div>
                 {
-                  items?.map((item, index) => (<Item key={index} item={item} />))
+                  items?.map((item, index) => (<Item key={index} item={item} onDelete={onDelete} />))
                 }
         </section>
     </>

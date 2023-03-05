@@ -1,7 +1,6 @@
 /*==========Base==========*/
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 1rem;
 }
 body {
   color: var(--dark-color);

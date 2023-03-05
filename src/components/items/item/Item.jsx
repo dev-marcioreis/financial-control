@@ -10,7 +10,7 @@ const Item = ( { item, onDelete } ) => {
                 <span>{item.desc}</span>
                 <span>{`R$ ${item.amount}`}</span>
                 <span>{item.expense ? (<Down color="hsl(349, 98%, 58%)" />) : (<Up color="hsl(192, 98%, 47%)" />)}</span>
-                <span className='btn'>{<BsTrash color="hsl(349, 98%, 58%)" onClick={() => onDelete(item.id)}/>}</span>
+                <span className='btn'>{<BsTrash onClick={() => onDelete(item.id)}/>}</span>
               </div>
         </section>
     </>

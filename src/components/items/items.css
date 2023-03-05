@@ -21,7 +21,7 @@
 
 
 /*==========Media Query==========*/
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .items {
         margin: 1rem auto;
     }

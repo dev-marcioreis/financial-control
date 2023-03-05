@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import Form from './components/form/Form';
 import Header from './components/header/Header';
-import Items from './components/items/Items';
 import Main from './components/main/Main';
 
 
@@ -52,8 +51,7 @@ function App() {
     <>
       <Header />
       <Main income={income} expense={expense} total={total} />
-      <Form handleAdd={handleAdd} />
-      <Items />
+      <Form handleAdd={handleAdd} transactionsList={transactionsList} setTransactionsList={setTransactionsList} />
     </>
   );
 }

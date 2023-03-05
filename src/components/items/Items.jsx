@@ -2,25 +2,30 @@ import Item from './item/Item'
 import './items.css'
 
 const Items = ( { items, setItems } ) => {
+
+  const onDelete = ID => {
+
+    const newArray = items.filter(transaction => transaction.id !== ID);
+    setItems(newArray);
+    localStorage.setItem("transactions", JSON.stringify(newArray))
+
+  };
+
   return (
     <>
         <section className='section items'>
           <div className='container'>
-              <table className='table'>
-                  <thead className='table-head'>
-                      <tr>
-                        <th>Descrição</th>
-                        <th>Valor</th>
-                        <th>Tipo</th>
-                        <th></th>
-                      </tr>
-                  </thead>
-                  <tbody className='table-body'>
-                    {
-                      items?.map((item, index) => (<Item key={index} item={item} />))
-                    }
-                  </tbody>
-              </table>
+              <div className='items__info'>
+                <span>descrição</span>
+                <span>valor</span>
+                <span>tipo</span>
+                <span>deletar</span>
+              </div>
+              <div className='items-item'>
+                {
+                  items?.map((item, index) => (<Item key={index} item={item} />))
+                }
+              </div>
           </div>
         </section>
     </>

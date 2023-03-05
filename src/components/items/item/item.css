@@ -1,0 +1,12 @@
+.item {
+    width: 100%;
+}
+.item .item__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn {
+    cursor: pointer;
+}
+

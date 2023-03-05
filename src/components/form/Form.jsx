@@ -1,7 +1,8 @@
 import { useState } from 'react'
+import Items from '../items/Items'
 import './form.css'
 
-const Form = ( { handleAdd } ) => {
+const Form = ( { handleAdd, transactionsList, setTransactionsList } ) => {
 
     const [desc, setDesc] = useState('')
     const [amount, setAmount] = useState('')
@@ -55,6 +56,7 @@ const Form = ( { handleAdd } ) => {
                 </div>
             </div>
         </section>
+        <Items items={transactionsList} setItems={setTransactionsList} />
     </>
   )
 }

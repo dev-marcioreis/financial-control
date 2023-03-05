@@ -1,11 +1,10 @@
 # Financial Control (React)
-Iniciando novo projeto em React JS.<br>
-Este projeto será um controle financeiro.<br>
+Este projeto é um controle financeiro.<br>
 React<br>
-Styled components<br>
+React hooks<br>
 React icons<br>
 Link de acesso: https://dev-marcioreis.github.io/financial-control/
-![image](https://user-images.githubusercontent.com/122680054/222962783-03bf0115-126a-431b-bad0-3395553e36fa.png)
+![image](https://user-images.githubusercontent.com/122680054/222978682-7eef7b51-c2c8-4f67-ac38-9cb1fd63270a.png)
 
 
 Getting Started with Create React App

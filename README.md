@@ -6,7 +6,7 @@ Este projeto é um controle financeiro.
 
 ## 🚀 Finalizado.
 
-## 📋 Técnologias
+## 📋 Tecnologias
 React + hooks + React icons
 
 ## ✒️ Autor

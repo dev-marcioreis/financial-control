@@ -2,7 +2,7 @@
 
 ---
 
-Este projeto é um controle financeiro.
+Este projeto é um controle financeiro desenvolviemto para utilização pessoal no dia a dia.
 
 ## 🚀 Finalizado.
 
